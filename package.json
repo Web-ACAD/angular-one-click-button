@@ -1,7 +1,7 @@
 {
 	"name": "@webacad/one-click-button",
 	"description": "Angular directive for disabling buttons after first click",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"keywords": [
 		"angular",
 		"forms",
