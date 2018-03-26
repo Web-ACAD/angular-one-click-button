@@ -1,0 +1,39 @@
+{
+	"name": "@webacad/one-click-button",
+	"description": "Angular directive for disabling buttons after first click",
+	"version": "0.0.1",
+	"keywords": [
+		"angular",
+		"forms",
+		"button"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Web-ACAD/js-one-click-button.git"
+	},
+	"main": "./lib/index.js",
+	"author": {
+		"name": "David Kudera",
+		"email": "kudera.d@gmail.com",
+		"url": "https://www.davidkudera.com"
+	},
+	"peerDependencies": {
+		"@angular/core": ">=5.0.0"
+	},
+	"devDependencies": {
+		"@angular/compiler": ">=5.0.0",
+		"@angular/compiler-cli": ">=5.0.0",
+		"@types/node": "8.0.19",
+		"ng-packagr": "^2.2.0",
+		"npm-install-peers": "^1.2.1",
+		"tslint": "^5.9.1",
+		"typescript": "^2.7.2"
+	},
+	"scripts": {
+		"build": "ng-packagr -p ng-package.json",
+		"lint": "tslint --project tsconfig.json",
+		"install:peers": "npm-install-peers",
+		"publish": "npm run build && npm publish lib"
+	}
+}
