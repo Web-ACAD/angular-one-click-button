@@ -34,6 +34,6 @@
 		"build": "ng-packagr -p ng-package.json",
 		"lint": "tslint --project tsconfig.json",
 		"install:peers": "npm-install-peers",
-		"publish": "npm run build && npm publish lib"
+		"publish:lib": "npm run build && npm publish lib --access=public"
 	}
 }
