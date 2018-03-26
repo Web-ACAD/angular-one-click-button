@@ -10,7 +10,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:Web-ACAD/js-one-click-button.git"
+		"url": "git@github.com:Web-ACAD/angular-one-click-button.git"
 	},
 	"main": "./lib/index.js",
 	"author": {
