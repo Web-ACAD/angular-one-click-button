@@ -1,5 +1,3 @@
-
-
 {
 	"rules": {
 		"adjacent-overload-signatures": true,
